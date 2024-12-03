@@ -9,6 +9,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | Challenge | Title                   | Difficulty | Description                     | Solution                    |
 | --------- | ----------------------- | ---------- | ------------------------------- | --------------------------- |
 | #1        | 🎁 First gift repeated! | 🟢 Easy    | [Description](challenges/01.md) | [Solution](solutions/01.js) |
+| #2        | 🖼️ Framing names        | 🟢 Easy    | [Description](challenges/02.md) | [Solution](solutions/02.js) |
 
 ## Installation
 
