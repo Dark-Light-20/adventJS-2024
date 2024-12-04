@@ -25,6 +25,10 @@ Each challenge is contained in its own _instructions_.md file and its own _solut
 node solutions/01.js
 ```
 
+## Languages
+
+The solutions can be made with JavaScript, TypeScript or Python. I'll try to made all 25 challenges with the 3 options :3
+
 ## Credits
 
 This project is based on challenges provided by Midudev in [adventJS.dev](https://adventjs.dev).
