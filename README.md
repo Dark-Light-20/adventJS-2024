@@ -17,6 +17,12 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 
 To run the solutions, you need to have Node.js installed on your machine (or Python3). Once you have Node.js (or Python3) installed, clone this repository and run each solution `.js` or `.ts` (or `.py`) file.
 
+_Note:_ To run TypeScript solutions with ease you need to install globally the `typescript` and `ts-node` packages:
+
+```bash
+npm install -g typescript ts-node
+```
+
 ## Usage
 
 Each challenge is contained in its own _instructions_.md file and its own _solution_.js file. You can run a specific challenge by using Node.js to execute the file. For example, to run Challenge 1, you would use the following command:
