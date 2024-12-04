@@ -6,12 +6,12 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 
 ## Challenges list
 
-| Challenge | Title                            | Difficulty | Description                     | Solution                       |
-| --------- | -------------------------------- | ---------- | ------------------------------- | ------------------------------ |
-| #1        | 🎁 First gift repeated!          | 🟢 Easy    | [Description](challenges/01.md) | [Solution](solutions/js/01.js) |
-| #2        | 🖼️ Framing names                 | 🟢 Easy    | [Description](challenges/02.md) | [Solution](solutions/js/02.js) |
-| #3        | 🏗️ Organizing the inventory      | 🟢 Easy    | [Description](challenges/03.md) | [Solution](solutions/js/03.js) |
-| #4        | 🎄 Decorating the Christmas tree | 🟠 Medium  | [Description](challenges/04.md) | [Solution](solutions/js/04.js) |
+| Challenge | Title                            | Difficulty | Description                     | JavaScript Solution               | TypeScript Solution               | Python Solution                       |
+| --------- | -------------------------------- | ---------- | ------------------------------- | --------------------------------- | --------------------------------- | ------------------------------------- |
+| #1        | 🎁 First gift repeated!          | 🟢 Easy    | [Description](challenges/01.md) | [JS Solution](solutions/js/01.js) | [TS Solution](solutions/ts/01.ts) | [Py Solution](solutions/python/01.py) |
+| #2        | 🖼️ Framing names                 | 🟢 Easy    | [Description](challenges/02.md) | [JS Solution](solutions/js/02.js) | [TS Solution](solutions/ts/02.ts) | [Py Solution](solutions/python/02.py) |
+| #3        | 🏗️ Organizing the inventory      | 🟢 Easy    | [Description](challenges/03.md) | [JS Solution](solutions/js/03.js) | [TS Solution](solutions/ts/03.ts) | [Py Solution](solutions/python/03.py) |
+| #4        | 🎄 Decorating the Christmas tree | 🟠 Medium  | [Description](challenges/04.md) | [JS Solution](solutions/js/04.js) | [TS Solution](solutions/ts/04.ts) | [Py Solution](solutions/python/04.py) |
 
 ## Installation
 
