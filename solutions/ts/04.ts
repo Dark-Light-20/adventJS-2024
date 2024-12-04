@@ -1,4 +1,4 @@
-function createXmasTree(height, ornament) {
+function createXmasTree(height: number, ornament: string): string {
   let tree = "";
   for (let i = 0; i < height; i++) {
     const spaces = "_".repeat(height - i - 1);
