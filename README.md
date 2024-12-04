@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains my solutions to **25** challenges proposed by [Midudev](https://x.com/midudev) on the website [adventJS.dev](https://adventjs.dev). The purpose of the challenges is to improve JavaScript skills and problem-solving abilities.
+This repository contains my solutions to **25** challenges proposed by [Midudev](https://x.com/midudev) on the website [adventJS.dev](https://adventjs.dev). The purpose of the challenges is to improve JavaScript (mainly), TypeScript and Python skills and problem-solving abilities.
 
 ## Challenges list
 
