@@ -12,6 +12,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #2        | 🖼️ Framing names                 | 🟢 Easy    | [Description](challenges/02.md) | [JS Solution](solutions/js/02.js) | [TS Solution](solutions/ts/02.ts) | [Py Solution](solutions/python/02.py) |
 | #3        | 🏗️ Organizing the inventory      | 🟢 Easy    | [Description](challenges/03.md) | [JS Solution](solutions/js/03.js) | [TS Solution](solutions/ts/03.ts) | [Py Solution](solutions/python/03.py) |
 | #4        | 🎄 Decorating the Christmas tree | 🟠 Medium  | [Description](challenges/04.md) | [JS Solution](solutions/js/04.js) | [TS Solution](solutions/ts/04.ts) | [Py Solution](solutions/python/04.py) |
+| #5        | 👞 Shoe pairing                  | 🟢 Easy    | [Description](challenges/05.md) | [JS Solution](solutions/js/05.js) | [TS Solution](solutions/ts/05.ts) | [Py Solution](solutions/python/05.py) |
 
 ## Installation
 

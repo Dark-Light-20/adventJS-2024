@@ -45,5 +45,5 @@ const frame4 = createFrame(["a", "bb", "ccc", "dddd"]);
 console.log(frame4);
 
 /* 
-    Score: ★★★★★
+  Score: ★★★★★
 */

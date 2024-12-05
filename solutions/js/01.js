@@ -16,5 +16,5 @@ console.log(preparedGifts3); // []
 // There are no gifts, the list remains empty
 
 /* 
-    Score: ★★★★★
+  Score: ★★★★★
 */

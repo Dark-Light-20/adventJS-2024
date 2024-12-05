@@ -53,5 +53,5 @@ console.log(result2);
 // }
 
 /* 
-    Score: ★★★★★
+  Score: ★★★★★
 */
