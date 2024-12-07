@@ -38,5 +38,5 @@ console.log(package4);
 // 1st we reverse "c" → "c", then "bc" → "cb"
 
 /* 
-  Score: ★★★★
+  Score: ★★★★★
 */

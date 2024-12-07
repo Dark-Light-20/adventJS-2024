@@ -37,5 +37,5 @@ if __name__ == "__main__":
     # 1st we reverse "c" → "c", then "bc" → "cb"
 
 """
-  Score: ★★★★
+  Score: ★★★★★
 """
