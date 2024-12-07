@@ -14,6 +14,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #4        | 🎄 Decorating the Christmas tree | 🟠 Medium  | [Description](challenges/04.md) | [JS Solution](solutions/js/04.js) | [TS Solution](solutions/ts/04.ts) | [Py Solution](solutions/python/04.py) |
 | #5        | 👞 Shoe pairing                  | 🟢 Easy    | [Description](challenges/05.md) | [JS Solution](solutions/js/05.js) | [TS Solution](solutions/ts/05.ts) | [Py Solution](solutions/python/05.py) |
 | #6        | 📦 Is the gift inside the box?   | 🟠 Medium  | [Description](challenges/06.md) | [JS Solution](solutions/js/06.js) | [TS Solution](solutions/ts/06.ts) | [Py Solution](solutions/python/06.py) |
+| #7        | 👹 The Grinch's attack           | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
 
 ## Installation
 
