@@ -15,6 +15,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #5        | 👞 Shoe pairing                  | 🟢 Easy    | [Description](challenges/05.md) | [JS Solution](solutions/js/05.js) | [TS Solution](solutions/ts/05.ts) | [Py Solution](solutions/python/05.py) |
 | #6        | 📦 Is the gift inside the box?   | 🟠 Medium  | [Description](challenges/06.md) | [JS Solution](solutions/js/06.js) | [TS Solution](solutions/ts/06.ts) | [Py Solution](solutions/python/06.py) |
 | #7        | 👹 The Grinch's attack           | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
+| #8        | 🦌 The reno race                 | 🟢 Easy    | [Description](challenges/08.md) | [JS Solution](solutions/js/08.js) | [TS Solution](solutions/ts/08.ts) | [Py Solution](solutions/python/08.py) |
 
 ## Installation
 
@@ -47,6 +48,8 @@ python3 solutions/python/01.py
 The solutions can be made with JavaScript, TypeScript or Python. I'll try to made all 25 challenges with the 3 options :3
 
 _For TypeScript initially I'm gonna use the same JavaScript code, making type checking changes when needed._
+
+_For Python initially I'm gonna translate the JavaScript code, using special python functions to replace js array methods._
 
 ## Credits
 
