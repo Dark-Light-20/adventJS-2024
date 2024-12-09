@@ -16,6 +16,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #6        | 📦 Is the gift inside the box?   | 🟠 Medium  | [Description](challenges/06.md) | [JS Solution](solutions/js/06.js) | [TS Solution](solutions/ts/06.ts) | [Py Solution](solutions/python/06.py) |
 | #7        | 👹 The Grinch's attack           | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
 | #8        | 🦌 The reno race                 | 🟢 Easy    | [Description](challenges/08.md) | [JS Solution](solutions/js/08.js) | [TS Solution](solutions/ts/08.ts) | [Py Solution](solutions/python/08.py) |
+| #9        | 🚂 The magic train               | 🟠 Medium  | [Description](challenges/09.md) | [JS Solution](solutions/js/09.js) | [TS Solution](solutions/ts/09.ts) | [Py Solution](solutions/python/09.py) |
 
 ## Installation
 
