@@ -17,6 +17,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #7        | 👹 The Grinch's attack           | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
 | #8        | 🦌 The reno race                 | 🟢 Easy    | [Description](challenges/08.md) | [JS Solution](solutions/js/08.js) | [TS Solution](solutions/ts/08.ts) | [Py Solution](solutions/python/08.py) |
 | #9        | 🚂 The magic train               | 🟠 Medium  | [Description](challenges/09.md) | [JS Solution](solutions/js/09.js) | [TS Solution](solutions/ts/09.ts) | [Py Solution](solutions/python/09.py) |
+| #10       | 👩‍💻 The elfish assembler          | 🟠 Medium  | [Description](challenges/10.md) | [JS Solution](solutions/js/10.js) | [TS Solution](solutions/ts/10.ts) | [Py Solution](solutions/python/10.py) |
 
 ## Installation
 
