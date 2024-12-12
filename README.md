@@ -19,6 +19,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #9        | 🚂 The magic train               | 🟠 Medium  | [Description](challenges/09.md) | [JS Solution](solutions/js/09.js) | [TS Solution](solutions/ts/09.ts) | [Py Solution](solutions/python/09.py) |
 | #10       | 👩‍💻 The elfish assembler          | 🟠 Medium  | [Description](challenges/10.md) | [JS Solution](solutions/js/10.js) | [TS Solution](solutions/ts/10.ts) | [Py Solution](solutions/python/10.py) |
 | #11       | 🏴‍☠️ Filenames encoded             | 🟢 Easy    | [Description](challenges/11.md) | [JS Solution](solutions/js/11.js) | [TS Solution](solutions/ts/11.ts) | [Py Solution](solutions/python/11.py) |
+| #12       | 💵 How much does the tree cost?  | 🟢 Easy    | [Description](challenges/12.md) | [JS Solution](solutions/js/12.js) | [TS Solution](solutions/ts/12.ts) | [Py Solution](solutions/python/12.py) |
 
 ## Installation
 
