@@ -1,16 +1,18 @@
+from re import search as re_search, compile as re_compile
+
+
 def compile(instructions):
     registers = {"A": 0}
     instruction_index = 0
+    registers_regex = re_compile(r"^[A-Z]+$")
     while (instruction_index < len(instructions)):
         params = instructions[instruction_index].split(" ")
         instruction = params[0]
         param1 = params[1]
         param2 = params[2] if (len(params) > 2) else None
         if (instruction == "MOV"):
-            try:
-                registers[param2] = int(param1)
-            except ValueError:
-                registers[param2] = registers[param1]
+            registers[param2] = int(param1) if (not re_search(
+                registers_regex, param1)) else registers[param1]
         elif (instruction == "INC"):
             registers.setdefault(param1, 0)
             registers[param1] += 1
@@ -43,7 +45,7 @@ if __name__ == "__main__":
         "DEC X",
         "JMP X 1",
         "MOV X A"
-    ])
+    ])  # -> -2
     print(result2)
 
     """
@@ -58,5 +60,5 @@ if __name__ == "__main__":
     """
 
 """
-  Score: # TODO: Error in web app with python in this challenge
+  Score: ★★★★★
 """
