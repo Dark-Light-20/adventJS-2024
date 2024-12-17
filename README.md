@@ -24,6 +24,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #14       | 🦌 Weaving the reno              | 🟢 Easy    | [Description](challenges/14.md) | [JS Solution](solutions/js/14.js) | [TS Solution](solutions/ts/14.ts) | [Py Solution](solutions/python/14.py) |
 | #15       | ✏️ Drawing tables                | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
 | #16       | ❄️ Cleaning the snow path        | 🟢 Easy    | [Description](challenges/16.md) | [JS Solution](solutions/js/16.js) | [TS Solution](solutions/ts/16.ts) | [Py Solution](solutions/python/16.py) |
+| #17       | 💣 Grinch's bombs                | 🟠 Medium  | [Description](challenges/17.md) | [JS Solution](solutions/js/17.js) | [TS Solution](solutions/ts/17.ts) | [Py Solution](solutions/python/17.py) |
 
 ## Installation
 
