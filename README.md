@@ -22,7 +22,8 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #12       | 💵 How much does the tree cost?  | 🟢 Easy    | [Description](challenges/12.md) | [JS Solution](solutions/js/12.js) | [TS Solution](solutions/ts/12.ts) | [Py Solution](solutions/python/12.py) |
 | #13       | 🤖 Is the robot back?            | 🔴 Hard    | [Description](challenges/13.md) | [JS Solution](solutions/js/13.js) | [TS Solution](solutions/ts/13.ts) | [Py Solution](solutions/python/13.py) |
 | #14       | 🦌 Weaving the reno              | 🟢 Easy    | [Description](challenges/14.md) | [JS Solution](solutions/js/14.js) | [TS Solution](solutions/ts/14.ts) | [Py Solution](solutions/python/14.py) |
-| #15       |                                  | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
+| #15       | ✏️ Drawing tables                | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
+| #16       | ❄️ Cleaning the snow path        | 🟢 Easy    | [Description](challenges/16.md) | [JS Solution](solutions/js/16.js) | [TS Solution](solutions/ts/16.ts) | [Py Solution](solutions/python/16.py) |
 
 ## Installation
 
