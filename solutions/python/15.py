@@ -1,30 +1,30 @@
 def draw_table(data: list[dict[str, str | int]]) -> str:
     table = ""
     columns_names = list(data[0].keys())
-    columns_values = {}
+    columns_length = {}
     for item in data:
         for column in columns_names:
-            columns_values.setdefault(column, [])
-            columns_values[column].append(str(item[column]))
-    columns_length = list(map(lambda column: len(sorted(
-        [column, *columns_values[column]], key=lambda name: len(name), reverse=True)[0]), columns_names))
+            columns_length.setdefault(column, len(column))
+            item_length = len(str(item[column]))
+            if (item_length > columns_length[column]):
+                columns_length[column] = item_length
     row_separator = "+"
-    for column_size in columns_length:
+    for column_size in columns_length.values():
         row_separator += "-"*(column_size+2)+"+"
     table += f"{row_separator}\n|"
-    for column_data in enumerate(columns_names):
+    for name in columns_names:
         table += " "
-        first_letter = column_data[1][0]
+        first_letter = name[0]
         table += first_letter.upper()
-        table += column_data[1][1:].ljust(columns_length[column_data[0]]-1)
+        table += name[1:].ljust(columns_length[name]-1)
         table += " |"
     table += f"\n{row_separator}\n"
     for item in data:
         table += "|"
-        for column_data in enumerate(columns_names):
+        for name in columns_names:
             table += " "
-            value = str(item[column_data[1]])
-            table += value.ljust(columns_length[column_data[0]])
+            value = str(item[name])
+            table += value.ljust(columns_length[name])
             table += " |"
         table += "\n"
     table += row_separator

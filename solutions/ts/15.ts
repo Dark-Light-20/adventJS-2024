@@ -1,43 +1,35 @@
 function drawTable(data: Array<Record<string, string | number>>): string {
   let table = "";
   const columnsNames = Object.keys(data[0]);
-  const columnsValues = data.reduce((acc, item) => {
-    columnsNames.forEach((column) => {
-      acc[column] ??= [];
-      acc[column].push(item[column].toString());
-    });
-    return acc;
-  }, {} as Record<string, string[]>);
-  const columnsLength = columnsNames.map(
-    (column) =>
-      [column, ...columnsValues[column]].sort((a, b) => b.length - a.length)[0]
-        .length
-  );
-  const rowSeparator = `+${columnsLength.reduce(
-    (line, colSize) => `${line}${"-".repeat(colSize + 2)}+`,
-    ""
-  )}`;
-  table += `${rowSeparator}\n`;
-  table += `|${columnsNames.reduce(
-    (acc, column, index) =>
-      `${acc} ${column[0].toUpperCase()}${column
-        .slice(1)
-        .padEnd(columnsLength[index] - 1, " ")} |`,
-    ""
-  )}\n`;
-  table += `${rowSeparator}\n`;
-  table += data.reduce(
-    (line, item) =>
-      `${line}|${columnsNames.reduce(
-        (itemAcc, column, index) =>
-          `${itemAcc} ${item[column]
-            .toString()
-            .padEnd(columnsLength[index], " ")} |`,
-        ""
-      )}\n`,
-    ""
-  );
-  table += rowSeparator;
+  const columnsLength: Record<string, number> = {};
+  for (const item of data) {
+    for (const name of columnsNames) {
+      columnsLength[name] ??= name.length;
+      const itemLength = item[name].toString().length;
+      columnsLength[name] = Math.max(itemLength, columnsLength[name]);
+    }
+  }
+  let rowSeparator = "+";
+  for (const colSize of Object.values(columnsLength)) {
+    rowSeparator += `${"-".repeat(colSize + 2)}+`;
+  }
+  table += `${rowSeparator}\n|`;
+  for (const name of columnsNames) {
+    table += ` ${name[0].toUpperCase()}${name
+      .substring(1)
+      .padEnd(columnsLength[name] - 1)} |`;
+  }
+  table += `\n${rowSeparator}\n`;
+  for (const item of data) {
+    table += `|${Object.values(item).reduce(
+      (line, value, index) =>
+        `${line} ${value
+          .toString()
+          .padEnd(Object.values(columnsLength)[index])} |`,
+      ""
+    )}\n`;
+  }
+  table += `${rowSeparator}`;
   return table;
 }
 
