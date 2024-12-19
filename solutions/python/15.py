@@ -1,33 +1,33 @@
 def draw_table(data: list[dict[str, str | int]]) -> str:
     table = ""
-    columns_names = list(data[0].keys())
-    columns_length = {}
+    cols_names = list(data[0].keys())
+    cols_size = {}
     for item in data:
-        for column in columns_names:
-            columns_length.setdefault(column, len(column))
-            item_length = len(str(item[column]))
-            if (item_length > columns_length[column]):
-                columns_length[column] = item_length
-    row_separator = "+"
-    for column_size in columns_length.values():
-        row_separator += "-"*(column_size+2)+"+"
-    table += f"{row_separator}\n|"
-    for name in columns_names:
+        for column in cols_names:
+            cols_size.setdefault(column, len(column))
+            item_size = len(str(item[column]))
+            if (item_size > cols_size[column]):
+                cols_size[column] = item_size
+    row_sep = "+"
+    for col_size in cols_size.values():
+        row_sep += "-"*(col_size+2)+"+"
+    table += f"{row_sep}\n|"
+    for name in cols_names:
         table += " "
         first_letter = name[0]
         table += first_letter.upper()
-        table += name[1:].ljust(columns_length[name]-1)
+        table += name[1:].ljust(cols_size[name]-1)
         table += " |"
-    table += f"\n{row_separator}\n"
+    table += f"\n{row_sep}\n"
     for item in data:
         table += "|"
-        for name in columns_names:
+        for name in cols_names:
             table += " "
             value = str(item[name])
-            table += value.ljust(columns_length[name])
+            table += value.ljust(cols_size[name])
             table += " |"
         table += "\n"
-    table += row_separator
+    table += row_sep
     return table
 
 
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     # +----------+----------+
 
 """
-  Score: ★★★★
+  Score: ★★★★★
 """

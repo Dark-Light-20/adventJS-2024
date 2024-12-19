@@ -21,13 +21,15 @@ function drawTable(data: Array<Record<string, string | number>>): string {
   }
   table += `\n${rowSeparator}\n`;
   for (const item of data) {
-    table += `|${Object.values(item).reduce(
-      (line, value, index) =>
-        `${line} ${value
-          .toString()
-          .padEnd(Object.values(columnsLength)[index])} |`,
-      ""
-    )}\n`;
+    table += "|";
+    const values = Object.values(item);
+    for (let i = 0; i < values.length; i++) {
+      let line = " ";
+      line += values[i].toString().padEnd(Object.values(columnsLength)[i]);
+      line += " |";
+      table += line;
+    }
+    table += "\n";
   }
   table += `${rowSeparator}`;
   return table;
@@ -62,5 +64,5 @@ console.log(table2);
 // +----------+----------+
 
 /* 
-  Score: ★★★★
+  Score: ★★★★★
 */
