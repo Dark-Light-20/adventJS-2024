@@ -25,6 +25,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #15       | ✏️ Drawing tables                | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
 | #16       | ❄️ Cleaning the snow path        | 🟢 Easy    | [Description](challenges/16.md) | [JS Solution](solutions/js/16.js) | [TS Solution](solutions/ts/16.ts) | [Py Solution](solutions/python/16.py) |
 | #17       | 💣 Grinch's bombs                | 🟠 Medium  | [Description](challenges/17.md) | [JS Solution](solutions/js/17.js) | [TS Solution](solutions/ts/17.ts) | [Py Solution](solutions/python/17.py) |
+| #18       | 📇 Santa's Magic Agenda          | 🔴 Hard    | [Description](challenges/18.md) | [JS Solution](solutions/js/18.js) | [TS Solution](solutions/ts/18.ts) | [Py Solution](solutions/python/18.py) |
 
 ## Installation
 
