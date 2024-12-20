@@ -6,26 +6,27 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 
 ## Challenges list
 
-| Challenge | Title                            | Difficulty | Description                     | JavaScript Solution               | TypeScript Solution               | Python Solution                       |
-| --------- | -------------------------------- | ---------- | ------------------------------- | --------------------------------- | --------------------------------- | ------------------------------------- |
-| #1        | 🎁 First gift repeated!          | 🟢 Easy    | [Description](challenges/01.md) | [JS Solution](solutions/js/01.js) | [TS Solution](solutions/ts/01.ts) | [Py Solution](solutions/python/01.py) |
-| #2        | 🖼️ Framing names                 | 🟢 Easy    | [Description](challenges/02.md) | [JS Solution](solutions/js/02.js) | [TS Solution](solutions/ts/02.ts) | [Py Solution](solutions/python/02.py) |
-| #3        | 🏗️ Organizing the inventory      | 🟢 Easy    | [Description](challenges/03.md) | [JS Solution](solutions/js/03.js) | [TS Solution](solutions/ts/03.ts) | [Py Solution](solutions/python/03.py) |
-| #4        | 🎄 Decorating the Christmas tree | 🟠 Medium  | [Description](challenges/04.md) | [JS Solution](solutions/js/04.js) | [TS Solution](solutions/ts/04.ts) | [Py Solution](solutions/python/04.py) |
-| #5        | 👞 Shoe pairing                  | 🟢 Easy    | [Description](challenges/05.md) | [JS Solution](solutions/js/05.js) | [TS Solution](solutions/ts/05.ts) | [Py Solution](solutions/python/05.py) |
-| #6        | 📦 Is the gift inside the box?   | 🟠 Medium  | [Description](challenges/06.md) | [JS Solution](solutions/js/06.js) | [TS Solution](solutions/ts/06.ts) | [Py Solution](solutions/python/06.py) |
-| #7        | 👹 The Grinch's attack           | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
-| #8        | 🦌 The reno race                 | 🟢 Easy    | [Description](challenges/08.md) | [JS Solution](solutions/js/08.js) | [TS Solution](solutions/ts/08.ts) | [Py Solution](solutions/python/08.py) |
-| #9        | 🚂 The magic train               | 🟠 Medium  | [Description](challenges/09.md) | [JS Solution](solutions/js/09.js) | [TS Solution](solutions/ts/09.ts) | [Py Solution](solutions/python/09.py) |
-| #10       | 👩‍💻 The elfish assembler          | 🟠 Medium  | [Description](challenges/10.md) | [JS Solution](solutions/js/10.js) | [TS Solution](solutions/ts/10.ts) | [Py Solution](solutions/python/10.py) |
-| #11       | 🏴‍☠️ Filenames encoded             | 🟢 Easy    | [Description](challenges/11.md) | [JS Solution](solutions/js/11.js) | [TS Solution](solutions/ts/11.ts) | [Py Solution](solutions/python/11.py) |
-| #12       | 💵 How much does the tree cost?  | 🟢 Easy    | [Description](challenges/12.md) | [JS Solution](solutions/js/12.js) | [TS Solution](solutions/ts/12.ts) | [Py Solution](solutions/python/12.py) |
-| #13       | 🤖 Is the robot back?            | 🔴 Hard    | [Description](challenges/13.md) | [JS Solution](solutions/js/13.js) | [TS Solution](solutions/ts/13.ts) | [Py Solution](solutions/python/13.py) |
-| #14       | 🦌 Weaving the reno              | 🟢 Easy    | [Description](challenges/14.md) | [JS Solution](solutions/js/14.js) | [TS Solution](solutions/ts/14.ts) | [Py Solution](solutions/python/14.py) |
-| #15       | ✏️ Drawing tables                | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
-| #16       | ❄️ Cleaning the snow path        | 🟢 Easy    | [Description](challenges/16.md) | [JS Solution](solutions/js/16.js) | [TS Solution](solutions/ts/16.ts) | [Py Solution](solutions/python/16.py) |
-| #17       | 💣 Grinch's bombs                | 🟠 Medium  | [Description](challenges/17.md) | [JS Solution](solutions/js/17.js) | [TS Solution](solutions/ts/17.ts) | [Py Solution](solutions/python/17.py) |
-| #18       | 📇 Santa's Magic Agenda          | 🔴 Hard    | [Description](challenges/18.md) | [JS Solution](solutions/js/18.js) | [TS Solution](solutions/ts/18.ts) | [Py Solution](solutions/python/18.py) |
+| Challenge | Title                                   | Difficulty | Description                     | JavaScript Solution               | TypeScript Solution               | Python Solution                       |
+| --------- | --------------------------------------- | ---------- | ------------------------------- | --------------------------------- | --------------------------------- | ------------------------------------- |
+| #1        | 🎁 First gift repeated!                 | 🟢 Easy    | [Description](challenges/01.md) | [JS Solution](solutions/js/01.js) | [TS Solution](solutions/ts/01.ts) | [Py Solution](solutions/python/01.py) |
+| #2        | 🖼️ Framing names                        | 🟢 Easy    | [Description](challenges/02.md) | [JS Solution](solutions/js/02.js) | [TS Solution](solutions/ts/02.ts) | [Py Solution](solutions/python/02.py) |
+| #3        | 🏗️ Organizing the inventory             | 🟢 Easy    | [Description](challenges/03.md) | [JS Solution](solutions/js/03.js) | [TS Solution](solutions/ts/03.ts) | [Py Solution](solutions/python/03.py) |
+| #4        | 🎄 Decorating the Christmas tree        | 🟠 Medium  | [Description](challenges/04.md) | [JS Solution](solutions/js/04.js) | [TS Solution](solutions/ts/04.ts) | [Py Solution](solutions/python/04.py) |
+| #5        | 👞 Shoe pairing                         | 🟢 Easy    | [Description](challenges/05.md) | [JS Solution](solutions/js/05.js) | [TS Solution](solutions/ts/05.ts) | [Py Solution](solutions/python/05.py) |
+| #6        | 📦 Is the gift inside the box?          | 🟠 Medium  | [Description](challenges/06.md) | [JS Solution](solutions/js/06.js) | [TS Solution](solutions/ts/06.ts) | [Py Solution](solutions/python/06.py) |
+| #7        | 👹 The Grinch's attack                  | 🟠 Medium  | [Description](challenges/07.md) | [JS Solution](solutions/js/07.js) | [TS Solution](solutions/ts/07.ts) | [Py Solution](solutions/python/07.py) |
+| #8        | 🦌 The reno race                        | 🟢 Easy    | [Description](challenges/08.md) | [JS Solution](solutions/js/08.js) | [TS Solution](solutions/ts/08.ts) | [Py Solution](solutions/python/08.py) |
+| #9        | 🚂 The magic train                      | 🟠 Medium  | [Description](challenges/09.md) | [JS Solution](solutions/js/09.js) | [TS Solution](solutions/ts/09.ts) | [Py Solution](solutions/python/09.py) |
+| #10       | 👩‍💻 The elfish assembler                 | 🟠 Medium  | [Description](challenges/10.md) | [JS Solution](solutions/js/10.js) | [TS Solution](solutions/ts/10.ts) | [Py Solution](solutions/python/10.py) |
+| #11       | 🏴‍☠️ Filenames encoded                    | 🟢 Easy    | [Description](challenges/11.md) | [JS Solution](solutions/js/11.js) | [TS Solution](solutions/ts/11.ts) | [Py Solution](solutions/python/11.py) |
+| #12       | 💵 How much does the tree cost?         | 🟢 Easy    | [Description](challenges/12.md) | [JS Solution](solutions/js/12.js) | [TS Solution](solutions/ts/12.ts) | [Py Solution](solutions/python/12.py) |
+| #13       | 🤖 Is the robot back?                   | 🔴 Hard    | [Description](challenges/13.md) | [JS Solution](solutions/js/13.js) | [TS Solution](solutions/ts/13.ts) | [Py Solution](solutions/python/13.py) |
+| #14       | 🦌 Weaving the reno                     | 🟢 Easy    | [Description](challenges/14.md) | [JS Solution](solutions/js/14.js) | [TS Solution](solutions/ts/14.ts) | [Py Solution](solutions/python/14.py) |
+| #15       | ✏️ Drawing tables                       | 🟢 Easy    | [Description](challenges/15.md) | [JS Solution](solutions/js/15.js) | [TS Solution](solutions/ts/15.ts) | [Py Solution](solutions/python/15.py) |
+| #16       | ❄️ Cleaning the snow path               | 🟢 Easy    | [Description](challenges/16.md) | [JS Solution](solutions/js/16.js) | [TS Solution](solutions/ts/16.ts) | [Py Solution](solutions/python/16.py) |
+| #17       | 💣 Grinch's bombs                       | 🟠 Medium  | [Description](challenges/17.md) | [JS Solution](solutions/js/17.js) | [TS Solution](solutions/ts/17.ts) | [Py Solution](solutions/python/17.py) |
+| #18       | 📇 Santa's Magic Agenda                 | 🔴 Hard    | [Description](challenges/18.md) | [JS Solution](solutions/js/18.js) | [TS Solution](solutions/ts/18.ts) | [Py Solution](solutions/python/18.py) |
+| #19       | 📦 Stack magical boxes to deliver gifts | 🔴 Hard    | [Description](challenges/19.md) | [JS Solution](solutions/js/19.js) | [TS Solution](solutions/ts/19.ts) | [Py Solution](solutions/python/19.py) |
 
 ## Installation
 
