@@ -1,29 +1,27 @@
 def distribute_weight(weight: int) -> str:
-    box_parts = {
-        "1": [" _ ", "|_|"],
-        "2": [" ___ ", "|___|"],
-        "5": [" _____ ", "|     |", "|_____|"],
-        "10": [" _________ ", "|         |", "|_________|"]
+    box_sizes = {
+        10: [" _________ ", "|         |", "|_________|"],
+        5: [" _____ ", "|     |", "|_____|"],
+        2: [" ___ ", "|___|"],
+        1: [" _ ", "|_|"]
     }
-    used_boxes = {"1": 0, "2": 0, "5": 0, "10": 0}
+    box_counts = {}
+    for size in box_sizes.keys():
+        box_counts[size] = weight // size
+        weight %= size
+    boxes_list = []
+    for size, quantity in box_counts.items():
+        boxes_list = [size]*quantity + boxes_list
     result = ""
-    remainder = weight
-    piled_boxes = []
-    for size in reversed(used_boxes.keys()):
-        quantity = remainder // int(size)
-        for _ in range(quantity):
-            piled_boxes.insert(0, size)
-        used_boxes[size] = quantity
-        remainder = remainder % int(size)
-    result += "\n".join(box_parts[piled_boxes[0]])
-    for i in range(len(piled_boxes))[1:]:
-        previous_box = piled_boxes[i-1]
-        box = piled_boxes[i]
+    result += "\n".join(box_sizes[boxes_list[0]])
+    for i in range(len(boxes_list))[1:]:
+        previous_box = boxes_list[i-1]
+        box = boxes_list[i]
         if (previous_box != box):
-            start_box_cover_index = len(box_parts[previous_box][-1])
-            result += box_parts[box][0][start_box_cover_index:-1]
+            start_box_cover_index = len(box_sizes[previous_box][-1])
+            result += box_sizes[box][0][start_box_cover_index:-1]
         result += "\n"
-        result += "\n".join(box_parts[box][1:])
+        result += "\n".join(box_sizes[box][1:])
     return result
 
 
