@@ -27,6 +27,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #17       | 💣 Grinch's bombs                       | 🟠 Medium  | [Description](challenges/17.md) | [JS Solution](solutions/js/17.js) | [TS Solution](solutions/ts/17.ts) | [Py Solution](solutions/python/17.py) |
 | #18       | 📇 Santa's Magic Agenda                 | 🔴 Hard    | [Description](challenges/18.md) | [JS Solution](solutions/js/18.js) | [TS Solution](solutions/ts/18.ts) | [Py Solution](solutions/python/18.py) |
 | #19       | 📦 Stack magical boxes to deliver gifts | 🔴 Hard    | [Description](challenges/19.md) | [JS Solution](solutions/js/19.js) | [TS Solution](solutions/ts/19.ts) | [Py Solution](solutions/python/19.py) |
+| #20       | 🎁 Find missing and duplicate gifts     | 🟢 Easy    | [Description](challenges/20.md) | [JS Solution](solutions/js/20.js) | [TS Solution](solutions/ts/20.ts) | [Py Solution](solutions/python/20.py) |
 
 ## Installation
 
