@@ -29,6 +29,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #19       | 📦 Stack magical boxes to deliver gifts       | 🔴 Hard    | [Description](challenges/19.md) | [JS Solution](solutions/js/19.js) | [TS Solution](solutions/ts/19.ts) | [Py Solution](solutions/python/19.py) |
 | #20       | 🎁 Find missing and duplicate gifts           | 🟢 Easy    | [Description](challenges/20.md) | [JS Solution](solutions/js/20.js) | [TS Solution](solutions/ts/20.ts) | [Py Solution](solutions/python/20.py) |
 | #21       | 🎄 Calculate the height of the Christmas tree | 🟢 Easy    | [Description](challenges/21.md) | [JS Solution](solutions/js/21.js) | [TS Solution](solutions/ts/21.ts) | [Py Solution](solutions/python/21.py) |
+| #22       | 🎁 Generate gift combinations                 | 🟠 Medium  | [Description](challenges/22.md) | [JS Solution](solutions/js/22.js) | [TS Solution](solutions/ts/22.ts) | [Py Solution](solutions/python/22.py) |
 
 ## Installation
 
