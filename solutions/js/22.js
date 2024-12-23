@@ -4,21 +4,18 @@
  */
 function generateGiftSets(gifts) {
   const result = [];
-  function generateCombinations(arr, size, start, temp) {
-    if (temp.length === size) {
-      result.push([...temp]);
-      return;
+  function generateCombinations(index, arr) {
+    if (arr.length > 0) {
+      result.push([...arr]);
     }
-    for (let i = start; i < arr.length; i++) {
-      temp.push(arr[i]);
-      generateCombinations(arr, size, i + 1, temp);
-      temp.pop();
+    for (let i = index; i < gifts.length; i++) {
+      arr.push(gifts[i]);
+      generateCombinations(i + 1, arr);
+      arr.pop();
     }
   }
-  for (let i = 1; i <= gifts.length; i++) {
-    generateCombinations(gifts, i, 0, []);
-  }
-  return result;
+  generateCombinations(0, []);
+  return result.sort((a, b) => a.length - b.length);
 }
 
 const giftsSet1 = generateGiftSets(["car", "doll", "puzzle"]);
