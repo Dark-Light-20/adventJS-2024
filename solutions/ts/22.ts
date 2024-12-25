@@ -49,5 +49,5 @@ console.log(giftsSet3);
 // ]
 
 /* 
-  Score: ★★
+  Score: ★★★★★
 */
