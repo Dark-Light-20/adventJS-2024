@@ -25,5 +25,5 @@ console.log(missing4);
 // [4]
 
 /* 
-  Score: ★★★★
+  Score: ★★★★★
 */
