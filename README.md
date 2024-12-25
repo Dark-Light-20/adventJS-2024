@@ -37,6 +37,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 
 ## Achievements
 
+![Scores image](./scores.png)
 ![Achievements image](./achievements.png)
 
 ## Installation
