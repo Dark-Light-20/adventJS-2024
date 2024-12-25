@@ -32,6 +32,7 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #22       | 🎁 Generate gift combinations                 | 🟠 Medium  | [Description](challenges/22.md) | [JS Solution](solutions/js/22.js) | [TS Solution](solutions/ts/22.ts) | [Py Solution](solutions/python/22.py) |
 | #23       | 🔢 Find the missing numbers                   | 🟢 Easy    | [Description](challenges/23.md) | [JS Solution](solutions/js/23.js) | [TS Solution](solutions/ts/23.ts) | [Py Solution](solutions/python/23.py) |
 | #24       | 🪞 Check if trees are magical mirrors         | 🟠 Medium  | [Description](challenges/24.md) | [JS Solution](solutions/js/24.js) | [TS Solution](solutions/ts/24.ts) | [Py Solution](solutions/python/24.py) |
+| #25       | 🪄 Execute the magical language               | 🟠 Medium  | [Description](challenges/25.md) | [JS Solution](solutions/js/25.js) | [TS Solution](solutions/ts/25.ts) | [Py Solution](solutions/python/25.py) |
 
 ## Installation
 
