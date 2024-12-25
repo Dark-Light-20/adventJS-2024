@@ -35,6 +35,10 @@ This repository contains my solutions to **25** challenges proposed by [Midudev]
 | #25       | 🪄 Execute the magical language               | 🟠 Medium  | [Description](challenges/25.md) | [JS Solution](solutions/js/25.js) | [TS Solution](solutions/ts/25.ts) | [Py Solution](solutions/python/25.py) |
 | #26       | 🎯 Calculate the completed percentage         | 🟢 Easy    | [Description](challenges/26.md) | [JS Solution](solutions/js/26.js) | [TS Solution](solutions/ts/26.ts) | [Py Solution](solutions/python/26.py) |
 
+## Achievements
+
+![Achievements image](./achievements.png)
+
 ## Installation
 
 To run the solutions, you need to have Node.js (v22+ LTS) installed on your machine (or Python3). Once you have Node.js (or Python3) installed, clone this repository and run each solution `.js` or `.ts` (or `.py`) file.
